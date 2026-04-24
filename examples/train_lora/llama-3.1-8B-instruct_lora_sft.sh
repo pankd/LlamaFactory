@@ -22,7 +22,7 @@ llamafactory-cli train \
     --overwrite_cache \
     --preprocessing_num_workers 16 \
     --dataloader_num_workers 4 \
-    --output_dir saves/llama-3.1-8B-instruct_lora_sft \
+    --output_dir "$OUTPUT" \
     --logging_steps 10 \
     --save_steps 500 \
     --plot_loss \
