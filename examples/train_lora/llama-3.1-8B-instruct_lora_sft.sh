@@ -8,7 +8,7 @@ mkdir -p "$OUTPUT"
 MODEL_PATH=meta-llama/Llama-3.1-8B-Instruct
 
 llamafactory-cli train \
-    --model_name_or_path ${MODEL_PATH} \
+    --model_name_or_path "$MODEL_PATH" \
     --trust_remote_code \
     --stage sft \
     --do_train \
