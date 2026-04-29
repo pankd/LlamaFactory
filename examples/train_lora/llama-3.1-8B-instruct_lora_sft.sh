@@ -36,4 +36,4 @@ llamafactory-cli train \
     --lr_scheduler_type cosine \
     --warmup_ratio 0.1 \
     --bf16 \
-    --ddp_timeout 180000000 > "$OUTPUT/train.log" 2>&1
+    --ddp_timeout 18000 > "$OUTPUT/train.log" 2>&1
